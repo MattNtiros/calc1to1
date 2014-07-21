@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties PUBLIC "-//JTRS//DTD SCA V2.2.2 PRF//EN" "properties.dtd">
+<properties>
+  <simple id="operation" mode="readwrite" type="ushort" complex="false">
+    <description>Selects the operation of the calculator. 
+If selected to any trig operations, it will only operate on input data.
+ex. cos(inputData) </description>
+    <value>0</value>
+    <range max="7" min="0"/>
+    <enumerations>
+      <enumeration label="add" value="0"/>
+      <enumeration label="subtract" value="1"/>
+      <enumeration label="divide" value="2"/>
+      <enumeration label="multiply" value="3"/>
+      <enumeration label="pow" value="4"/>
+      <enumeration label="sin" value="5"/>
+      <enumeration label="cos" value="6"/>
+      <enumeration label="tan" value="7"/>
+    </enumerations>
+    <kind kindtype="configure"/>
+    <action type="external"/>
+  </simple>
+  <simple id="operand" mode="readwrite" type="double" complex="true">
+    <description>The operand for the calculation. This number will be used to calculate the output depending on the operation</description>
+    <value>0</value>
+    <kind kindtype="configure"/>
+    <action type="external"/>
+  </simple>
+  <simple id="trig_input" mode="readwrite" type="boolean" complex="false">
+    <description>For trig operations, true means radian input. False means input data is in degrees.</description>
+    <value>true</value>
+    <enumerations>
+      <enumeration label="radians" value="true"/>
+      <enumeration label="degrees" value="false"/>
+    </enumerations>
+    <kind kindtype="configure"/>
+    <action type="external"/>
+  </simple>
+</properties>

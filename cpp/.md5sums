@@ -1,0 +1,10 @@
+d83fb9f716bc14668fd312da4582da1f  main.cpp
+c99df9fa4ab0cd042eac42fcee6441c3  reconf
+6b52caeb95fe958f18e1cbd79e8f19fe  calc1to1.cpp
+91754f861550cc93a8597091587c63b2  calc1to1_base.cpp
+feb0a1757b4cd74cb28d044ef1a5da15  calc1to1_base.h
+2d8502c5da8c9c6c7cc01caf2c9aba2a  configure.ac
+cba943f8bb4e603ad8815db9bd6928df  Makefile.am
+accc479c161919deecb29bf0ab0dc681  Makefile.am.ide
+2edeb4570ba55b42155b992f38587fb6  build.sh
+fe2b66423cc5d8a7765be778b4d95825  calc1to1.h
